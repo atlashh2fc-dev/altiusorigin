@@ -11,7 +11,7 @@ export function OneTime() {
         <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.08] to-white/[0.04] p-8 backdrop-blur">
           <div className="flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-center">
             <div className="max-w-2xl">
-              <Badge>Pago único (10% menos)</Badge>
+              <Badge>Pago único</Badge>
               <h2 className="mt-5 text-balance text-3xl font-semibold tracking-tight text-zinc-50 sm:text-4xl">
                 Una inversión. Un año de operación incluida.
               </h2>
@@ -36,9 +36,7 @@ export function OneTime() {
               <div className="mt-3 text-4xl font-semibold tracking-tight text-zinc-50">
                 ${ORIGEN.oneTime.priceUsd}
               </div>
-              <div className="mt-2 text-sm text-zinc-300">
-                {ORIGEN.oneTime.priceClp} CLP / {ORIGEN.oneTime.priceBs} Bs
-              </div>
+
               <div className="mt-6 space-y-3">
                 <Button href="#diagnostico" variant="primary" size="lg" className="w-full">
                   Quiero el pago único
